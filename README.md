@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# D3.js usage for creating a sample dashboard.
+
+# Getting Started with D3 Demo
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
