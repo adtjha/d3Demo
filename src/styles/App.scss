@@ -1,0 +1,143 @@
+.c-app {
+  text-align: center;
+
+  .__header {
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: row;
+    color: #363636;
+    align-content: stretch;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.c-logoSide {
+  margin: 10px;
+  margin-right: 0;
+  box-shadow: 1px 1px 8px 1px #c1c1c17d;
+  max-width: 50%;
+  width: 50%;
+  height: 97vh;
+
+  .__logo {
+    width: 590px;
+    margin-top: 40px;
+  }
+
+  .__title {
+    margin: auto;
+    margin-top: -60px;
+    font-size: 22px;
+    max-width: 270px;
+    color: #192741;
+  }
+
+  .__tagline {
+    font-size: 14px;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    color: #19274180;
+  }
+}
+
+.c-formSide {
+  width: 50%;
+  height: 97vh;
+  background: white;
+  box-shadow: rgb(0 0 0 / 15%) 2.4px 2.4px 3.2px;
+  margin: 10px;
+  margin-left: 0;
+  display: flex;
+  justify-content: flex-start;
+
+  .__registerForm {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: center;
+    gap: 16px;
+
+    h1 {
+      font-size: 24px;
+      color: #192741;
+    }
+
+    .__formInput {
+      display: flex;
+      flex-direction: column;
+      width: 440px;
+      align-items: stretch;
+
+      label {
+        width: fit-content;
+        font-size: 12px;
+        font-weight: bold;
+        color: #60606090;
+      }
+
+      input {
+        margin-top: 4px;
+        padding: 12px;
+        border-radius: 6px;
+        border: 1px solid #00000024;
+        cursor: pointer;
+        font-size: 18px;
+      }
+
+      .__error {
+        color: #f31c1ce3;
+        width: fit-content;
+        text-align: left;
+        font-size: 12px;
+        margin-top: 4px;
+      }
+    }
+
+    .__checkbox {
+      display: grid;
+      grid-template-columns: 16px 1fr;
+      grid-gap: 15px;
+      grid-template-rows: 1fr 1fr;
+      justify-items: stretch;
+      row-gap: 1px;
+      column-gap: 8px;
+      cursor: pointer;
+
+      input {
+        margin-top: 0;
+        cursor: pointer;
+      }
+
+      .__error {
+        grid-area: 2/2;
+      }
+
+      label {
+        cursor: pointer;
+      }
+    }
+
+    .__submitButton {
+      margin-top: 16px;
+      padding: 10px 40px;
+      border: 0;
+      background: #33adff;
+      color: white;
+      border-radius: 4px;
+      font-weight: 600;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  }
+}
+
+rect {
+  fill: rgb(201, 201, 201);
+}
